@@ -15,6 +15,7 @@ const Footer = () => {
                 alt="logo"
                 width={170}
                 height={16}
+                priority
               />
             </Link>
           </div>
@@ -45,40 +46,30 @@ const Footer = () => {
             </Link>
           </div>
           <div className="footer_socials">
-            <Image
+            <img
               src="/assets/shared/desktop/facebook.svg"
               alt="facebook"
-              priority
-              width={20}
-              height={20}
+              className="footer_social_link"
             />
-            <Image
+            <img
               src="/assets/shared/desktop/youtube.svg"
               alt="youtube"
-              priority
-              width={20}
-              height={20}
+              className="footer_social_link"
             />
-            <Image
+            <img
               src="/assets/shared/desktop/twitter.svg"
               alt="twitter"
-              priority
-              width={20}
-              height={20}
+              className="footer_social_link"
             />
-            <Image
+            <img
               src="/assets/shared/desktop/pinterest.svg"
               alt="pinterest"
-              priority
-              width={20}
-              height={20}
+              className="footer_social_link"
             />
-            <Image
+            <img
               src="/assets/shared/desktop/instagram.svg"
               alt="instagram"
-              priority
-              width={20}
-              height={20}
+              className="footer_social_link"
             />
           </div>
         </div>
@@ -87,6 +78,7 @@ const Footer = () => {
             classNames={'btn_out_primary btn_footer'}
             icon="/assets/shared/desktop/arrow.svg"
             label={'GET AN INVITE'}
+            clickAction={'Footer Button Clicked'}
           />
           <p className="copyright">Copyright 2019. All Rights Reserved</p>
         </div>

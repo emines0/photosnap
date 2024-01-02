@@ -1,0 +1,68 @@
+const pricingFeatures = [
+  {
+    id: 1,
+    title: 'Unlimited story posting',
+    basic: true,
+    pro: true,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+  {
+    id: 2,
+    title: 'Unlimited photo upload',
+    basic: true,
+    pro: true,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+  {
+    id: 3,
+    title: 'Embedding custom content',
+    basic: false,
+    pro: true,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+  {
+    id: 4,
+    title: 'Customize metadata',
+    basic: false,
+    pro: true,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+  {
+    id: 5,
+    title: 'Advanced metrics',
+    basic: false,
+    pro: true,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+  {
+    id: 6,
+    title: 'Photo downloads',
+    basic: false,
+    pro: false,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+  {
+    id: 7,
+    title: 'Search engine indexing',
+    basic: false,
+    pro: false,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+  {
+    id: 8,
+    title: 'Custom analytics',
+    basic: false,
+    pro: false,
+    business: true,
+    img: '/assets/pricing/desktop/check.svg',
+  },
+];
+
+export default pricingFeatures;

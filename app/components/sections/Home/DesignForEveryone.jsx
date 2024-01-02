@@ -15,9 +15,9 @@ const DesignForEveryone = () => {
           </p>
           <Button
             classNames={'btn_out btn_out_secondary'}
-            // clickAction={'Get An Invite from Create and Share'}
             icon={'/assets/shared/desktop/arrow.svg'}
             label={'VIEW THE STORIES'}
+            clickAction={'Home Designed for Everyone Button Clicked'}
           />
         </div>
         <div className="card_photo">

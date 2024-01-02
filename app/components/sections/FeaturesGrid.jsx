@@ -1,5 +1,4 @@
 import features from '@app/data/features';
-import Image from 'next/image';
 
 const FeaturesGrid = ({ condition }) => {
   return (
@@ -13,11 +12,8 @@ const FeaturesGrid = ({ condition }) => {
                 key={feature.id}
               >
                 <div className="feature_image">
-                  <Image
+                  <img
                     src={feature.img}
-                    width={72}
-                    height={72}
-                    priority
                     alt={feature.title}
                   />
                 </div>

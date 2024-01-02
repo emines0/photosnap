@@ -40,9 +40,9 @@ const BeautifulStories = () => {
           </p>
           <Button
             classNames={'btn_out btn_out_secondary'}
-            // clickAction={'Get An Invite from Beautiful stories'}
             icon={'/assets/shared/desktop/arrow.svg'}
             label={'VIEW THE STORIES'}
+            clickAction={'Home Beautiful Stories Button Clicked'}
           />
         </div>
       </div>

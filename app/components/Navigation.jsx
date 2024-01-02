@@ -123,9 +123,9 @@ const Navigation = () => {
         </nav>
         <Button
           classNames={'btn btn_primary'}
-          // clickAction={'Get An Invite DT/TB'}
           icon={''}
           label={'GET AN INVITE'}
+          clickAction={'Get An Invite - Navigation'}
         />
       </header>
     </>

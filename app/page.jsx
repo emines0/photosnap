@@ -1,9 +1,8 @@
-import Image from 'next/image';
 import CreateAndShare from './components/sections/Home/CreateAndShare';
 import BeautifulStories from './components/sections/Home/BeautifulStories';
 import DesignForEveryone from './components/sections/Home/DesignForEveryone';
-import StoriesGrid from './components/sections/Home/StoriesGrid';
-import FeaturesGrid from './components/sections/Home/FeaturesGrid';
+import StoriesGrid from './components/sections/StoriesGrid';
+import FeaturesGrid from './components/sections/FeaturesGrid';
 
 export default function Home() {
   return (

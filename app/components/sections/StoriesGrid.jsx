@@ -41,6 +41,9 @@ const StoriesGrid = ({ condition }) => {
                     classNames={'btn_out btn_out_primary font-xs'}
                     icon={'/assets/shared/desktop/arrow.svg'}
                     label={'READ STORY'}
+                    clickAction={
+                      'Home Read Story Button Clicked ---> ' + story.title
+                    }
                   />
                 </div>
               </div>

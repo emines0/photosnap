@@ -15,34 +15,25 @@ const CreateAndShare = () => {
           </p>
           <Button
             classNames={'btn_out btn_out_primary'}
-            // clickAction={'Get An Invite from Create and Share'}
             icon={'/assets/shared/desktop/arrow.svg'}
             label={'GET AN INVITE'}
+            clickAction={'Home Create and Share Button Clicked'}
           />
         </div>
         <div className="card_photo">
-          <Image
+          <img
             src="/assets/home/mobile/create-and-share.jpg"
             alt="Create and share"
-            priority
-            width={273}
-            height={650}
             className="hidden max-sm:block w-full"
           />
-          <Image
+          <img
             src="/assets/home/tablet/create-and-share.jpg"
             alt="Create and share"
-            priority
-            width={273}
-            height={650}
             className="hidden sm:max-lg:block w-full"
           />
-          <Image
+          <img
             src="/assets/home/desktop/create-and-share.jpg"
             alt="Create and share"
-            priority
-            width={960}
-            height={750}
             className="hidden lg:block w-full"
           />
         </div>
