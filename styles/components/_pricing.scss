@@ -1,0 +1,57 @@
+@layer components {
+  .pricing_container {
+    @apply flex flex-col
+             justify-center items-center
+             w-full max-w-[1440px]
+             m-auto
+             px-8 sm:px-10 lg:px-40
+             py-14 sm:py-16;
+  }
+}
+
+.compare_container {
+  @apply flex flex-col
+           justify-center items-center
+           w-full max-w-[1440px]
+           m-auto
+           px-8 sm:px-10 lg:px-40
+           py-14 sm:py-16;
+}
+
+.compare_table_container {
+  @apply py-8 sm:py-14 w-full max-w-[1440px] m-auto;
+}
+
+.compare_table {
+  @apply w-full max-w-[731px] m-auto
+            px-6
+            border-collapse
+            border-solid
+            text-xs
+            font-semibold;
+}
+
+.compare_table .compare_table_header th {
+  @apply text-center
+          w-1/5
+          pb-4
+          border-b-[1px]  border-solid  border-primary-color;
+}
+
+.compare_table .compare_table_header th:first-child {
+  @apply text-left
+          w-2/5;
+}
+
+.compare_table .compare_table_row {
+  @apply border-b-[1px]  border-solid  border-grey-color;
+}
+
+.compare_table .compare_table_row .compare_table_feature img {
+  @apply m-0 inline-block;
+}
+
+.compare_table .compare_table_row .compare_table_feature {
+  @apply text-center 
+          py-6  sm:py-4;
+}

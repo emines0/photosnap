@@ -3,23 +3,26 @@ import pricingFeatures from '@app/data/pricingFeatures';
 
 const Compare = () => {
   return (
-    <section className="compare">
+    <section className="compare_container">
       <h1 className="heading_1">Compare</h1>
 
       <div className="compare_table_container">
-        <table className="compare_table">
+        <table className="compare_table ">
           <thead>
-            <tr>
-              <th className="compare_table_heading"></th>
-              <th className="compare_table_heading">Basic</th>
-              <th className="compare_table_heading">Pro</th>
-              <th className="compare_table_heading">Business</th>
+            <tr className="compare_table_header">
+              <th className="">The Features</th>
+              <th className="">Basic</th>
+              <th className="">Pro</th>
+              <th className="">Business</th>
             </tr>
           </thead>
           <tbody>
             {pricingFeatures.map((feature, index) => (
-              <tr key={index}>
-                <td className="compare_table_feature">{feature.title}</td>
+              <tr
+                key={index}
+                className="compare_table_row"
+              >
+                <td className="">{feature.title}</td>
                 <td className="compare_table_feature">
                   {feature.basic ? (
                     <img

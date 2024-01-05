@@ -1,0 +1,24 @@
+@layer components {
+  .desktop_header {
+    @apply hidden
+             md:flex flex-row 
+             justify-between items-center
+             w-full max-w-screen-xl 
+             m-auto 
+             py-7 md:px-10 xl:px-0;
+  }
+
+  .desktop_nav {
+    @apply flex flex-row 
+             justify-center items-center
+             gap-9;
+  }
+
+  .desktop_nav_link {
+    @apply transition-colors duration-300;
+  }
+
+  .desktop_nav_link:hover {
+    @apply text-grey-color;
+  }
+}

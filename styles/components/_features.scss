@@ -1,0 +1,54 @@
+@layer components {
+  .features_container {
+    @apply grid
+             max-sm:py-24
+             max-sm:px-8 
+             sm:p-36
+             max-lg:grid-cols-1
+             max-lg:gap-20
+             lg:grid-cols-3
+             lg:gap-10
+             justify-between items-center
+             w-full max-w-[1440px]
+             m-auto
+             max-sm:flex flex-col;
+  }
+
+  .feature {
+    @apply flex flex-col
+             justify-between items-center
+             w-full h-full
+             text-center
+             gap-8;
+  }
+
+  .feature_image {
+    @apply flex flex-col 
+             justify-center items-center 
+             w-full h-full max-h-[72px] max-w-[72px]  
+             mb-6;
+  }
+
+  .feature_text {
+    @apply flex flex-col
+             justify-center items-center
+             w-full h-full 
+             gap-4;
+  }
+
+  .feature_title {
+    @apply font-semibold
+             capitalize
+             text-lg
+             tracking-[0px]
+             leading-[25px];
+  }
+
+  .feature_desc {
+    @apply font-normal
+             text-sm
+             opacity-60
+             tracking-[0px]
+             leading-[25px];
+  }
+}

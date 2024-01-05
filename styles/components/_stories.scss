@@ -1,0 +1,64 @@
+@layer components {
+  .stories_container {
+    @apply grid
+             max-sm:grid-cols-1
+             max-lg:grid-cols-2 
+             lg:grid-cols-4
+             justify-center items-center
+             w-full max-w-[1440px]
+             m-auto
+             max-sm:flex flex-col;
+  }
+
+  .story {
+    @apply relative
+             flex flex-col
+             justify-center items-center
+             w-full h-full
+             text-center
+             transition-all duration-300;
+  }
+
+  .story:hover {
+    @apply transform -translate-y-5;
+  }
+
+  .story_image {
+    @apply relative
+             w-full h-full;
+  }
+
+  .story_image::before {
+    content: '';
+    @apply absolute 
+             top-0 left-0 
+             w-full h-full
+             bg-primary-color 
+             opacity-40;
+  }
+
+  .story_text {
+    @apply absolute
+             flex flex-col
+             justify-start items-start
+             bottom-0 left-0 
+             text-secondary-color
+             w-full 
+             px-8 py-6;
+  }
+
+  .story_title {
+    @apply font-semibold
+             capitalize
+             text-lg
+             tracking-[0px]
+             leading-[25px];
+  }
+
+  .story_author {
+    @apply font-normal
+             text-xs
+             tracking-[0px]
+             leading-[25px];
+  }
+}

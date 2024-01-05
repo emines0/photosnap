@@ -1,0 +1,40 @@
+@layer components {
+  .mobile_header {
+    @apply md:hidden 
+             relative
+             flex flex-row 
+             justify-between items-center 
+             w-full max-w-screen-xl 
+             m-auto
+             p-7
+             cursor-pointer;
+  }
+
+  .mobile_nav {
+    @apply bg-secondary-color
+             absolute 
+             top-20 
+             left-0 
+             text-center
+             font-medium
+             tracking-[2.5px] 
+             uppercase
+             flex flex-col
+             gap-5
+             w-full
+             px-8
+             justify-center items-center 
+             transition-all duration-300
+             z-[1];
+  }
+
+  .mobile_nav_list {
+    @apply flex flex-col
+             w-full
+             gap-5;
+  }
+
+  .mobile_nav_link {
+    @apply block w-full;
+  }
+}

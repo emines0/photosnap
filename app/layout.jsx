@@ -1,5 +1,5 @@
 import { DM_Sans } from 'next/font/google';
-import '../styles/globals.css';
+import '../styles/globals.scss';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
 

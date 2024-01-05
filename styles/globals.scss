@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile Navigation */
+@import './components/mobile-header';
+
+/* Desktop Navigation */
+@import './components/desktop-header';
+
+/* Stories */
+@import './components/stories';
+
+/* Features */
+@import './components/features';
+
+/* Pricing */
+@import './components/pricing';
+@import './components/plan-picker';
+
+/* Footer */
+@import './components/footer';
+
+/* Hero */
+@import './components/hero';
+
+/* Card */
+@import './components/card';
+
+/* Banner */
+@import './components/banner';
+
+/* Utilities - Buttons */
+@import './utilities/buttons';
+
+/* Utilities - Images */
+@import './utilities/images';
+
+/* Utilities - Headings */
+@import './utilities/headings';

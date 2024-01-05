@@ -59,7 +59,7 @@ const Navigation = () => {
             <li>
               <Button
                 classNames={'btn_mobile btn_primary mobile_nav_link'}
-                // clickAction={'Get An Invite MB'}
+                clickAction={'Get An Invite - Mobile Navigation'}
                 icon={''}
                 label={'GET AN INVITE'}
               />
@@ -125,7 +125,7 @@ const Navigation = () => {
           classNames={'btn btn_primary'}
           icon={''}
           label={'GET AN INVITE'}
-          clickAction={'Get An Invite - Navigation'}
+          clickAction={'Get An Invite - Desktop Navigation'}
         />
       </header>
     </>

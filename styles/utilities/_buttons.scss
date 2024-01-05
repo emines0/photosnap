@@ -1,0 +1,83 @@
+@layer utilities {
+  /* Buttons */
+  .btn {
+    @apply text-xs 
+             tracking-[2px]
+             py-3 px-10
+             transition-all duration-300;
+  }
+
+  .btn_primary {
+    @apply bg-primary-color 
+             text-secondary-color;
+  }
+
+  .btn_primary:hover {
+    @apply bg-grey-color 
+             text-primary-color;
+  }
+
+  .btn_mobile {
+    @apply text-sm 
+             tracking-[2px]
+             mb-5
+             py-3
+             w-full
+             transition-all duration-300;
+  }
+
+  .btn_out {
+    @apply bg-transparent  
+             flex flex-row
+             justify-start items-center
+             w-full
+             text-xs 
+             tracking-[2px]
+             text-left
+             transition-all duration-300;
+  }
+
+  .btn_out_primary {
+    @apply text-secondary-color;
+  }
+
+  .btn_out_secondary {
+    @apply text-primary-color;
+  }
+
+  .btn_out_primary:hover,
+  .btn_out_secondary:hover {
+    text-decoration: underline;
+  }
+
+  .btn_price_plan_container {
+    @apply relative 
+             inline-flex 
+             cursor-pointer 
+             select-none 
+             items-center;
+  }
+
+  .btn_price_plan_text {
+    @apply flex 
+             items-center 
+             text-sm 
+             font-medium 
+             text-primary-color;
+  }
+
+  .btn_price_plan_bg {
+    @apply mx-4 flex h-8 w-[60px] items-center rounded-full p-1 duration-200;
+  }
+
+  .btn_price_plan_dot {
+    @apply h-6 w-6 rounded-full  duration-200;
+  }
+
+  .content_underline {
+    @apply border-b-[1px] 
+           border-grey-color 
+             border-solid 
+             w-full h-[1px];
+  }
+}

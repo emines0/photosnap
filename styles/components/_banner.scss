@@ -1,0 +1,23 @@
+@layer components {
+  .banner {
+    @apply w-full max-w-[1440px] h-[288px] md:h-[280px]
+           m-auto
+           px-[33px] py-16 sm:py-[68px] lg:px-[165px]
+           flex flex-col sm:flex-row justify-center sm:justify-between items-start sm:items-center
+           gap-[24px]
+           bg-no-repeat bg-cover bg-center
+           text-secondary-color;
+
+    .banner_heading {
+      @apply w-[100%] sm:max-w-[400px]
+             text-[32px] sm:text-[40px]
+             font-semibold
+             tracking-[3.333px] sm:tracking-[4.167px]
+             leading-[40px] sm:leading-[48px];
+    }
+
+    .btn_footer {
+      @apply w-[33%];
+    }
+  }
+}

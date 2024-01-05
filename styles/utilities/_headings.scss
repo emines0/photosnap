@@ -1,0 +1,17 @@
+.heading_1 {
+  @apply font-semibold
+         text-[40px]
+         leading-[48px]
+         tracking-[4.167px]
+         uppercase
+         text-center;
+}
+
+.heading_3 {
+  @apply font-semibold
+         text-[24px]
+         leading-[25px]
+         text-center
+         sm:max-lg:text-left
+         mb-[18px];
+}

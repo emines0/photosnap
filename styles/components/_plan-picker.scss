@@ -1,0 +1,108 @@
+@layer components {
+  .plan_picker_container {
+    @apply flex flex-col lg:flex-row
+             justify-center items-center
+             w-full max-w-[1440px]
+             m-auto
+             gap-[30px]
+             py-10 sm:py-12;
+  }
+
+  .plan_item {
+    @apply flex flex-col
+             justify-center items-center
+             sm:max-lg:justify-start sm:max-lg:items-start
+             max-lg:p-10
+             w-full 
+             m-auto
+             bg-[#f5f5f5]
+             lg:px-10 lg:pt-14 lg:pb-10;
+  }
+
+  .plan_item_text {
+    @apply flex flex-col 
+             sm:max-lg:flex-row
+             justify-center items-center
+             sm:max-lg:justify-start sm:max-lg:items-start
+             
+             w-full
+             mb-8;
+  }
+
+  .plan_item_desc {
+    @apply font-normal
+             text-[15px]
+             w-full lg:w-[270px]
+             leading-[25px]
+             text-center
+             sm:max-lg:text-left
+             text-primary-color
+             opacity-60
+             mb-8;
+  }
+
+  .plan_item_price {
+    @apply flex flex-col
+             justify-center items-center
+             sm:max-lg:justify-start sm:max-lg:items-end
+             w-full;
+  }
+
+  .plan_item_price_number {
+    @apply font-semibold
+             text-[40px]
+             leading-[48px]
+             text-center
+             text-primary-color;
+  }
+
+  .plan_item_price_period {
+    @apply text-primary-color
+             opacity-60;
+  }
+
+  .plan_item_btn {
+    @apply bg-primary-color 
+             text-secondary-color
+             text-sm 
+             tracking-[2px]
+             mb-5
+             py-3
+             w-full
+             sm:max-lg:w-[45%]
+             transition-all duration-300;
+  }
+
+  .plan_item_btn:hover {
+    @apply bg-grey-color 
+             text-primary-color;
+  }
+
+  .plan_item_btn.pro {
+    @apply bg-secondary-color 
+             text-primary-color;
+  }
+
+  .plan_item_btn.pro:hover {
+    @apply bg-grey-color;
+  }
+
+  .plan_item_header.pro,
+  .plan_item_desc.pro,
+  .plan_item_price_number.pro,
+  .plan_item_price_period.pro {
+    @apply text-secondary-color;
+  }
+
+  .plan_item.pro {
+    @apply bg-primary-color lg:pt-20 lg:pb-16;
+  }
+
+  .item.pro {
+    @apply pt-[6px]  sm:max-lg:pt-0  sm:max-lg:pl-[6px]
+           bg-gradient-to-tr from-[#ffc593] via-[#bc7198] to-[#5a77ff]
+           sm:max-lg:bg-gradient-to-t from-[#ffc593] via-[#bc7198] to-[#5a77ff];
+  }
+}
+
+// sm:max-lg:
